@@ -311,15 +311,15 @@
 										<div class="row">
 											<div class="col-sm-4 form-group">
 												<label>Spouse's Lastname</label>
-												<input id="fbSpouseLname" type="text" placeholder="Lastname..." class="form-control" required>
+												<input id="fbSpouseLname" type="text" id="" placeholder="Lastname..." class="form-control" required>
 											</div>
 											<div class="col-sm-4 form-group">
 												<label>Firstname</label>
-												<input id="fbSpouseFname" type="text" placeholder="Firstname..." class="form-control" required>
+												<input id="fbSpouseFname" type="text" id="" placeholder="Firstname..." class="form-control" required>
 											</div>
 											<div class="col-sm-4 form-group">
 												<label>Middlename</label>
-												<input id="fbSpouseMname" type="text" placeholder="Middlename..." class="form-control" required>
+												<input id="fbSpouseMname" type="text" id="" placeholder="Middlename..." class="form-control" required>
 											</div>
 										</div>
 
@@ -379,6 +379,7 @@
 
 													<button id="fbbtnDelChild" class="btn btn-danger pull-right tblBottom" style="margin-left: 4px;">Del</button>
 													<button id="fbbtnAddChild" class="btn btn-primary pull-right tblBottom">Add</button>
+													<button id="fbbtnTest" class="btn btn-primary pull-right tblBottom" onClick="">Save</button>
 													<div class="tclear"></div>
 												</div>
 											</div>
@@ -1286,6 +1287,12 @@ $('#perMunicipality').change(function(e){
 $('li').click(function(e){
 	
 });
+
+function saveFam() {
+	
+	
+	
+}
 
 </script>
 <!-- Steps Progress and Details - END -->
